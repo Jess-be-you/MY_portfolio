@@ -3,6 +3,8 @@ import LeftSide from './pages/LeftSide';
 import RightSide from './pages/RightSide';
 import Banner from './pages/Banner';
 import About from './pages/About';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
 import { motion } from 'framer-motion';
 import './App.css';
 
@@ -21,6 +23,8 @@ function App() {
         <div className="h-[88vh] w-4/5 mx-auto p-4">
           <Banner />
           <About />
+          <Experience />
+          <Projects />
         </div>
         <motion.div 
          initial={{ opacity: 0}}

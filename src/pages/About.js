@@ -74,10 +74,11 @@ const About = () => {
                         alt="jesmi_profile_image"
                         className='rounded-sm h-full object-cover'
                         />
-                        <div className='hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300'></div>
-                        {/* <div className='hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-3 group-hover:-translate-y-5 transition-transform duration-300'></div> */}
+                        <div className='hidden lgl:inline-block absolute w-full h-80 bg-textGreen/20 rounded-md top-0 left-0 group-hover:bg-transparent duration-300'>
+                        </div>
                     </div>
                 </div>
+                <div className='hidden lgl:inline-flex w-full h-80 border-2 border-textGreen rounded-md group-hover:-translate-x-3 group-hover:-translate-y-5 transition-transform duration-300'></div>
             </div>
         </div>
     </section>
