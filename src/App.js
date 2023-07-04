@@ -6,6 +6,8 @@ import About from './pages/About';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import Achievements from './pages/Achievements';
+import Contact from './pages/Contact';
+import Footer from './pages/Footer';
 import { motion } from 'framer-motion';
 import './App.css';
 
@@ -27,6 +29,8 @@ function App() {
           <Experience />
           <Projects />
           <Achievements />
+          <Contact />
+          <Footer />
         </div>
         <motion.div 
          initial={{ opacity: 0}}
