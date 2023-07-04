@@ -46,7 +46,7 @@ const Navbar = () => {
                 transition={{ duration: 0.1 ,delay:0.1}}>
                   <span className='text-textGreen'>04.</span>Contact</motion.li></a>
           </ul>
-          <a href="/public/Jesmi (1).pdf" target="_blank">
+          <a href="./works/Jesmi (1).pdf" target="_blank">
           <motion.button
             initial={{ opacity: 0}}
             animate={{ opacity: 1}}

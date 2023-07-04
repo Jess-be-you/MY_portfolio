@@ -5,6 +5,7 @@ import Banner from './pages/Banner';
 import About from './pages/About';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
+import Achievements from './pages/Achievements';
 import { motion } from 'framer-motion';
 import './App.css';
 
@@ -25,6 +26,7 @@ function App() {
           <About />
           <Experience />
           <Projects />
+          <Achievements />
         </div>
         <motion.div 
          initial={{ opacity: 0}}
