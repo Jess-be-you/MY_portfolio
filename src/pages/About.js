@@ -14,10 +14,12 @@ const About = () => {
         <div className="flex flex-col lgl:flex-row gap-16">
             <div 
                 className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
-                <p>'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-                <p>'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,<span className="text-textGreen">and a search for 'lorem ipsum'</span>  will uncover many web sites still in their infancy.</p>
-                <p>'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
-                <p>Here are a few Technologies I have been working with recently:</p>
+                <p>I design and build responsive websites for an optimal user experience that achieves your business goals.</p>
+                <p>I focus on  my skills in building responsive and functional websites using <span className="text-textGreen">FrontEnd Frameworks</span>.
+                I am enthusiastic about exploring the <span className="text-textGreen">decentralized nature and immutability of blockchain</span> and leveraging its benefits to develop secure and efficient solutions
+                </p>
+                <p>I don’t like to define myself by the work I’ve done. I define myself by the work I want to do. Skills can be taught, personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.</p>
+                <p>Here are a <span  className="text-textGreen">few Technologies</span> I have been working with recently:</p>
                 <ul className='max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6'>
                     <li className="flex items-center gap-2">
                         <span className="text-textGreen">

@@ -18,7 +18,7 @@ const Navbar = () => {
     e.preventDefault();
     setShowMenu(false);
     const href = e.currentTarget.href;
-    const targetId = href.replace(/.*\\#/, "");
+    const targetId = href.replace(/.*\#/, "");
     const elem = document.getElementById(targetId);
     elem?.scrollIntoView({
       behavior: "smooth",
@@ -72,7 +72,7 @@ const Navbar = () => {
               </motion.li>
             </a>
           </ul>
-          <a href="./works/Jesmi (1).pdf" target="_blank">
+          <a href="../images/Jesmi(1).pdf" target="_blank" rel="noopener noreferrer">
             <motion.button
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}

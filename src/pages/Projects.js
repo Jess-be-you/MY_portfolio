@@ -8,7 +8,7 @@ import {TbBrandGithub} from 'react-icons/tb';
 function Projects() {
   return (
     <section 
-    id="projects"
+    id="project"
     className="max-w-container mx-auto lgl:px-20 py-24"
     >
         <SectionTitle title="My Projects" titleNo="03" />
