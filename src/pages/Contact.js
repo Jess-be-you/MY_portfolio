@@ -10,8 +10,7 @@ const Contact = () => {
         Where does it come from?</p>
         <h2 className='font-titleFont text-5xl font-semibold'>Get In Touch</h2>
         <p className='max-w-[600px] text-center text-textDark'>
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-        </p>
+        "Feel free to reach out to me through the provided contact information, and I am actively seeking new opportunities and open to collaborations. Reach out to explore how we can create something remarkable together"        </p>
         <a href="mailto:jesmijose282@gmail.com">
   <button className='px-4 py-2 rounded-md text-textGreen font-titleFont text-[20px] border border-textGreen hover:bg-hoverColor duration-300 flex items-center gap-2'>
     Say Hi

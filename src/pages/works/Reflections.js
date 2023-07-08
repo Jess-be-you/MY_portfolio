@@ -13,13 +13,13 @@ function Reflections() {
         <p className="text-sm mt-1 font-medium text-textD ark">May 2023 - July 2023</p>
         <ul className='mt-6 flex flex-col gap-3'>
             <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textGreen mt-1"><TiArrowForward /></span>Contrary to popular belief, Lorem Ipsum is not simply random text
+                <span className="text-textGreen mt-1"><TiArrowForward /></span>Worked on the development and improvement of the company website revamp, under the Azure cloud platform . 
             </li>
             <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textGreen mt-1"><TiArrowForward /></span>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                <span className="text-textGreen mt-1"><TiArrowForward /></span>Work in a virtual environment connected through the Microsoft Teams app and explore the virtual machine.
             </li>
             <li className="text-base flex gap-2 text-textDark">
-                <span className="text-textGreen mt-1"><TiArrowForward /></span>This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32
+                <span className="text-textGreen mt-1"><TiArrowForward /></span>Learnt Reactjs,Next.js,Tailwind CSS,Typescript
             </li>
         </ul>
     </motion.div>

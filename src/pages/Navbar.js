@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/logo.png';
+import Resume from '../images/Jesmi_Resume.pdf';
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { HiMenu } from 'react-icons/hi';
@@ -72,7 +73,7 @@ const Navbar = () => {
               </motion.li>
             </a>
           </ul>
-          <a href="../images/Jesmi(1).pdf" target="_blank" rel="noopener noreferrer">
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
             <motion.button
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
