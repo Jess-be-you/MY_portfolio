@@ -1,17 +1,24 @@
 import React,{useState} from 'react';
 import SectionTitle from './SectionTitle';
 import Reflections from './works/Reflections';
+import Bhooti from './works/Bhooti';
 // import Company from './works/Company';
 
 
 const Experience= () =>{
 
     const [workReflections,setWorkReflections]=useState(true);
+    const [workBhooti,setWorkBhooti]=useState(false);
+
     // const [workCompany,setWorkCompany]=useState(false);
 
     const handleReflections=() =>{
         setWorkReflections(true);
-        // setWorkCompany(false);
+        setWorkBhooti(false);
+    };
+    const handleBhooti=() =>{
+        setWorkReflections(false);
+        setWorkBhooti(true);
     };
     // const handleCompany=() =>{
     //     setWorkReflections(false);
@@ -33,6 +40,13 @@ const Experience= () =>{
                 : "border-l-hoverColor text-hoverColor "}
                 border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
                     Reflections</li>
+                <li 
+                onClick={handleBhooti}
+                className={`${workBhooti
+                ? "border-l-textGreen text-textGreen" 
+                : "border-l-textDark text-textDark "}
+                border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
+                    Bhooti</li>
                 {/* <li 
                 onClick={handleCompany}
                 className={`${workCompany
@@ -42,6 +56,7 @@ const Experience= () =>{
                     Company</li> */}
             </ul>
             {workReflections && <Reflections />}
+            {workBhooti && <Bhooti />}
             {/* {workCompany && <Company />} */}
         </div>
     </section>
