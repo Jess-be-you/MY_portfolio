@@ -35,7 +35,7 @@ function Achievements() {
             desc="A website for calculating Body Mass Index"
             listItem={["HTML","JS","CSS"]}
             link1="https://github.com/Jess-be-you/BMI_CALCULATOR"
-            link2="https://github.com/Jess-be-you/Enquiry-Form"
+            link2="https://jess-be-you.github.io/BMI_CALCULATOR/"
             />
         </div>
     </div>
