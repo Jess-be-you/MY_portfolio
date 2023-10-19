@@ -30,6 +30,13 @@ function Achievements() {
             link1="https://jess-be-you.github.io/Enquiry-Form/"
             link2="https://github.com/Jess-be-you/Enquiry-Form"
             />
+             <Card 
+            title="BMI CALCULATOR"
+            desc="A website for calculating Body Mass Index"
+            listItem={["HTML","JS","CSS"]}
+            link1="https://github.com/Jess-be-you/BMI_CALCULATOR"
+            link2="https://github.com/Jess-be-you/Enquiry-Form"
+            />
         </div>
     </div>
   )
