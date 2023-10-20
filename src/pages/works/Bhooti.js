@@ -9,7 +9,7 @@ function Bhooti() {
     animate={{ opacity: 1}}
     transition={{ delay: 0.1}}
     className='w-full'>
-        <h3 className="flex gap-1 font-medium ext-xl font-titleFont">Web Developer<span className="text-textGreen tracking-wide">@Company</span></h3>
+        <h3 className="flex gap-1 font-medium ext-xl font-titleFont">Web Developer<span className="text-textGreen tracking-wide">@Bhooti</span></h3>
         <p className="text-sm mt-1 font-medium text-textD ark">October 2023-present</p>
         <ul className='mt-6 flex flex-col gap-3'>
             <li className="text-base flex gap-2 text-textDark">
